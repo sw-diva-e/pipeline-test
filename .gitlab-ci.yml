@@ -1,0 +1,9 @@
+include:
+  - local: .gitlab-ci/ci/test.yml
+
+stages:
+  - test
+
+default:
+  tags:
+    - docker

@@ -1,0 +1,5 @@
+count-lines:
+  stage: test
+  image: bash:5
+  script:
+    - wc -l .gitlab-ci.yml
